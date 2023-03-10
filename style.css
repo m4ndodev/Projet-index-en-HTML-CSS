@@ -11,7 +11,7 @@ body {
     font-size: 2.5rem;
     text-shadow: 3px 3px 8px #4620af;
 }
-.contact-demand {
+.btn-contact {
     font-family: "bebas neue", sans-serif;
     color: #26beb7;
     text-align: center;
@@ -20,7 +20,7 @@ body {
 }
 .galerie {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 50%;
     max-width: 1300px;
@@ -41,11 +41,11 @@ body {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 35px;
-    background-color: rgba(29, 27, 27, 0.568);
+    background-color: rgba(29, 27, 27, 0.719);
     color: rgb(181, 236, 236);
     text-shadow: 2px 1px 6px cyan;
     text-align: center;
