@@ -1,5 +1,42 @@
-html {
-    background-image : url("img/BG-retro.jpg");
-    background-repeat: no-repeat;
-    backgroun
+body {
+    background: url("img/BG-retro.jpg") center/cover;
+    min-height: 100vh;
+
+}
+
+.intro-content {
+    font-family: "bebas neue", sans-serif;
+    color: #cc54c2;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 8px #4620af;
+}
+.contact-demand {
+    font-family: "bebas neue", sans-serif;
+    color: #26beb7;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 8px #e23198;
+}
+.galerie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
+}
+
+.item {
+    max-height: 45px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 35px;
+    background-color: rgba(29, 27, 27, 0.568);
+    color: rgb(181, 236, 236);
+    text-shadow: 2px 1px 6px cyan;
+    text-align: center;
 }
