@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-body {
-    background: url("img/BG-retro.jpg") center/cover;
+html,body  
+{  
+overflow:hidden;  
+}  body {
+    background: url("img/BG-retro.jpg") center/cover, no-repeat;
     min-height: 100vh;
     text-align: center;
+    height: 400px;
 
 }
 
 .intro-content {
+    margin-top: 95px;
     font-family: 'Lobster', cursive;
     color: #54ccb2;
     text-align: center;
@@ -37,12 +42,12 @@ body {
     text-shadow: 4px 4px 8px #b6b0b8ea;
 }
 
+p {
+    margin-bottom: 150px;
+}
 .galerie {
     display: flex;
-    position: absolute;
-    transform: translateY(50%)
     justify-content: space-around;
-
     width: 50%;
     max-width: 100px;
     padding-bottom: 150px;
