@@ -27,10 +27,12 @@
     margin-bottom: 50px;
 }
 
-.btn-contact a, a:visited {
-    position: fixed;
-    margin-left: 35%;
+.btn-contact {
     text-align: center;
+}
+
+.btn-contact a, a:visited {
+    with position: fixed;
     font-family: "bebas neue", sans-serif;
     font-size: 2.5rem;
     text-shadow: 3px 3px 8px #e23198;
