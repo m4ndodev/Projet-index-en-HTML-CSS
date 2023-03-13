@@ -13,7 +13,10 @@
     z-index: -1;
     }
 
-.intro-content {
+*{
+    transition: 2.5s;
+}
+    .intro-content {
     margin-top: 95px;
     font-family: 'Lobster', cursive;
     color: #54ccb2;
@@ -47,8 +50,7 @@
     color: #e23198;
     text-shadow: 4px 4px 8px #b6b0b8ea;
     box-shadow: rgb(226, 49, 152) 2px -1px 9px 3px;
-    transform: scale(1.1);
-    transition: 0.30s;
+    
    
 }
 
