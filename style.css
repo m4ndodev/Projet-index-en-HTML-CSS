@@ -52,18 +52,14 @@
     box-shadow: rgb(226, 49, 152) 2px -1px 9px 3px;
     transform: scale(1.1);
 }
-h6{
+h6 {
     text-align: center;
-}
-.intro {
-    max-width: 750px;
+    max-width: 65%;
     font-family: 'Lobster', cursive;
     color: #54ccb2;
-    text-align: center;
     font-size: 3.5rem;
     text-shadow: 3px 3px 8px #4620af;
-    justify-content: center;
-    display: flex;
+    margin: auto;
 }
 p {
     margin-bottom: 150px;
